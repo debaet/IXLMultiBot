@@ -33,4 +33,5 @@ Same with the scraper, it only works with some questions until i add new Xpaths 
 this code uses over 300 lines of code and was coded in all one day, so please expect some errors along the way.
 If you want to report errors, DM on reddit or on IG, or if you  know python yourself, leave a pull request.
 
+<a><img src="https://i.ibb.co/yN0x0TG/square-og-ixl.png" alt="square-og-ixl" border="0"></a>
 
