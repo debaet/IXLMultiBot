@@ -2,7 +2,6 @@ from selenium import webdriver
 import os, time
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
-import options
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.action_chains import ActionChains
 import sys
