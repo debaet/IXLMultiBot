@@ -187,7 +187,7 @@ def op2():
 
 
 
-def op4():
+def op3():
     os.system('cls' if os.name == 'nt' else 'clear')
     print('If any of these are incorrect, bot will fail.')
     username = input('Enter Username or Email: ')
@@ -196,7 +196,7 @@ def op4():
 
     
 
-def op5():
+def op4():
     os.system('cls' if os.name == 'nt' else 'clear')
     print('If any of these are incorrect, bot will fail.')
     username = input('Enter Username or Email: ')
@@ -209,9 +209,8 @@ def main():
     print('Menu: ')
     print('1. Add more time to your account')
     print('2. Scrape Answers (get answers)')
-    print('3. Get Teacher Accounts')
-    print('4. Auto Answer (some lessons work)')
-    print('5. Credits')
+    print('3. Auto Answer (some lessons work)')
+    print('4. Credits')
     var = input('Enter an Option: ')
 
     # goes to the specified option 
@@ -223,11 +222,9 @@ def main():
 
     elif var==('3'):
         op3()
+
     elif var==('4'):
         op4()
-
-    elif var==('5'):
-        op5()
 
     else:
         print('Please enter numbers only. If you did and still got an error, please enter a number which is listed above.')
