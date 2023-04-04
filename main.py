@@ -9,9 +9,10 @@ import colorama
 from colorama import Fore, Back, Style
 colorama.init()
 
-# config
+# Configuration
 
-# change the directory to your chrome driver. for more instructions read the readme file.os
+# change the directory to your chrome driver.
+# for more instructions read the README.md file.
 PATH = ('C:\\Program Files (x86)\\Chrome\\Application\\chromedriver.exe') 
 
 
@@ -19,7 +20,7 @@ driver = webdriver.Chrome(PATH)
 
 
 def main4(argv):
-	lesson = input('Enter lesson link for algerba')
+	lesson = input('Enter lesson link for algebra')
 	while True:
 		driver.get(lesson)
 		time.sleep(4)
@@ -64,7 +65,7 @@ def main1(argv):
 
 
 def main2(argv):
-	lesson = input('Please Enter A 7th Grade Lesson Link: ')
+	lesson = input('Please enter a 7th grade lesson link: ')
 	while True:
 		driver.get(lesson)
 		time.sleep(4)
@@ -84,7 +85,7 @@ def main2(argv):
 		driver.find_element_by_xpath('/html/body/div[9]/section/div[1]/div[1]/div[6]/div/div[8]/div/div[1]/div[1]/div[2]/button').click()
 # 6th Grade
 def main3(argv):
-	lesson = input('Please Enter A 6th Grade Lesson Link: ')
+	lesson = input('Please enter A 6th grade lesson link: ')
 	while True:
 		driver.get(lesson)
 		time.sleep(4)
@@ -108,14 +109,14 @@ def main3(argv):
 
 def op1():
     os.system('cls' if os.name == 'nt' else 'clear')
-    print('If any of these are incorrect, bot will fail.')
+    print('If any of these are incorrect, the bot will fail.')
     username = input('Enter Username or Email: ')
     password = input('Enter Password:  ')
     os.system('cls' if os.name == 'nt' else 'clear')
     
     
-    print('do not touch the window that has just popped up. ')
-    print('smart score goes up and down alot, just go afk or do something in background!')
+    print('Do not touch the window that has just popped up/opened. ')
+    print('The SmartScore goes up and down a lot, just go AFK or do something in the background!')
     driver.get('https://www.ixl.com/math/grade-7/add-and-subtract-integers')
     time.sleep(3)
     driver.refresh()
@@ -184,7 +185,9 @@ def op2():
             print('algerba')
             main4(sys.argv)
 
-
+def op3():
+    os.system('cls' if os.name == 'nt' else 'clear')
+    teacher = print('Teacher Accounts are a paid feature, it's a test option.')
 
 
 def op4():
